@@ -27,39 +27,27 @@ Built with **pnpm workspaces**, **TypeScript**, **Express**, **WebSockets**, and
 ## ⚡ Getting Started
 
 ### 1️⃣ Clone the Repository
-git clone  https://github.com/navneetpathak1/Excelidrow.git
-cd Lets_Draw
-
-text
+git clone  ```https://github.com/navneetpathak1/Excalidrow.git```
+cd Excalidrow
 
 ### 2️⃣ Install Dependencies
-npm install
-
-or
-yarn install
-
-or
+```bash
 pnpm install
-
-text
-
-### 3️⃣ Run in Development Mode
-npx turbo dev
-
-text
-This will start:
-- **Frontend** (Next.js) with hot reload  
-- **Backend** (Express WebSocket server) with auto‑reload
+```
+### 3️⃣ Update .env file in packages/db folder
+- Add your Database URL
 
 ### 4️⃣ Build for Production
-npx turbo build
 
-text
+```bash
+pnpm run build
+```
+
 
 ### 5️⃣ Run Production Server
-npx turbo start
-
-text
+```bash
+pnpm run dev
+```
 
 ---
 
@@ -72,3 +60,8 @@ text
 5. **Create** a Pull Request
 
 ---
+
+
+***Thank You😉***
+
+
